@@ -1,0 +1,25 @@
+cleanDefaultStyle()
+    outline: none 
+    border:none
+    appearance none
+
+btn(color , border=false)
+    padding: 0 10px
+    border-radius: 5px
+    cursor: pointer
+    cleanDefaultStyle()
+
+    if(border)
+        border:1px solid color
+    else
+        background-color: color
+        color: #ffffff
+
+primaryBtn()
+    btn($lightred)
+
+primaryBorderBtn()
+    btn($lightred , true)
+
+infoBtn()
+    btn($green)

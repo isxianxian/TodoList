@@ -57,7 +57,10 @@ module.exports = {
     ],
     resolve: {
         alias: {
-            'vue': 'vue/dist/vue.js'
+            'vue': 'vue/dist/vue.js',
+            '@': path.resolve(__dirname, '../src'),
+            'css': path.resolve(__dirname, '../src/assets/css'),
+            'img': path.resolve(__dirname, '../src/assets/img')
         }
     }
 }

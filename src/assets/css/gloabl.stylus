@@ -1,0 +1,12 @@
+*
+    margin: 0
+    padding: 0
+
+body
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #ffffff;
+    font:14px 'micorsoft yahei' 300
+
+.text-shadow
+    text-shadow: 5px 5px 5px rgba(0 , 0, 0, .1)
